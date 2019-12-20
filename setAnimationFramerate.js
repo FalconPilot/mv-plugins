@@ -18,6 +18,7 @@
   const parameters = PluginManager.parameters(pluginName);
   const _fps = Number(parameters.FPS || 15);
   const fps = numberBoundaries(_fps, 10, 60);
+
   Sprite_Animation.prototype.setupRate = function () {
     this._rate = Math.ceil(60 / fps);
   };
