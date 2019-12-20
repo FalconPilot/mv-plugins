@@ -3,8 +3,8 @@
  * @author FalconPilot
  * 
  * @param FPS
- * desc The amount of FPS (Frames Per Second) for in-game animations
- * default 15
+ * @desc The amount of FPS (Frames Per Second) for in-game animations
+ * @default 15
 */
 
 (function() {
